@@ -5,9 +5,11 @@ Line's web store disables right clicking to save animated stickers. This script 
 
 ## Usage
 
-1. Navigate to the webpage for the stickers you want to download. [Example](https://store.line.me/stickershop/product/3524/en)
+1. Navigate to the webpage for the stickers you want to download.
+[Example](https://store.line.me/stickershop/product/3524/en)
 
-2. Copy and paste the code below into the address bar. NOTE: This can also be bookmarked to easily run whenever needed.
+2. Copy and paste the code below into the address bar.
+NOTE: This can also be bookmarked to easily run whenever needed.
 
 ```javascript
 javascript:$(".mdCMN09Image").click(function(event) { urx = "https://" + event.target.outerHTML.split("https://")[1].split(".png")[0] + "_animation@2x.png"; window.open(urx); console.log(urx); });
