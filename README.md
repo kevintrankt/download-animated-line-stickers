@@ -3,12 +3,14 @@ A simple Javascript script to save animated stickers from Line messenger's web s
 
 Line's web store disables right clicking to save animated stickers. This script allows you to load the URL of the animated sticker when you click it.
 
-#### Usage
+## Usage
 
-1. Navigate
+1. Navigate to the webpage for the stickers you want to download. [Example](https://store.line.me/stickershop/product/3524/en)
 
-2. Test
+2. Copy and paste the code below into the address bar. NOTE: This can also be bookmarked to easily run whenever needed.
 
 ```javascript
 javascript:$(".mdCMN09Image").click(function(event) { urx = "https://" + event.target.outerHTML.split("https://")[1].split(".png")[0] + "_animation@2x.png"; window.open(urx); console.log(urx); });
 ```
+
+3. Click on any animated sticker to open the animated sticker URL in a new tab!
