@@ -17,3 +17,9 @@ javascript:$(".mdCMN09Image").click(function(event) { urx = "https://" + event.t
 ```
 
 3. Click on any animated sticker to open the animated sticker URL in a new tab!
+
+If you want to download all of the stickers at once, follow step 2 but with the script below. It will download a zip archive of all the stickers.
+
+```javascript
+javascript:window.open("http://dl.stickershop.line.naver.jp/products/0/0/1/" + window.location.pathname.split("product/")[1].split('/')[0] + "/iphone/stickerpack@2x.zip")
+```
