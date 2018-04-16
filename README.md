@@ -10,7 +10,7 @@ Line's web store disables right clicking to save animated stickers. This script 
 
 2. Copy and paste the code below into the address bar.
 
-*NOTE*: This can also be bookmarked to easily run whenever needed.
+*NOTE*: This can be bookmarked if you will be using it often.
 
 ```javascript
 javascript:$(".mdCMN09Image").click(function(event) { urx = "https://" + event.target.outerHTML.split("https://")[1].split(".png")[0] + "_animation@2x.png"; window.open(urx); console.log(urx); });
