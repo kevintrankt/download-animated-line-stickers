@@ -1,5 +1,5 @@
-# save-animated-line-stickers
-A simple Javascript script to save animated stickers from Line messenger's web store. This is useful for designers who want to recreate animations from existing stickers.
+# download-animated-line-stickers
+A simple Javascript script to download animated stickers from Line messenger's web store. This is useful for designers who want to recreate animations from existing stickers.
 
 Line's web store disables right clicking to save animated stickers. This script allows you to load the URL of the animated sticker when you click it in the Line web store.
 
