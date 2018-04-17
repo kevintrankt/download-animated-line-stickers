@@ -3,6 +3,8 @@ A simple Javascript script to download animated stickers from Line messenger's w
 
 Line's web store disables right clicking to save animated stickers. This script allows you to load the URL of the animated sticker when you click it in the Line web store.
 
+![Example](https://giant.gfycat.com/RightThriftyIberiannase.gif)
+
 ## Usage
 
 1. Navigate to the webpage for the stickers you want to download.
